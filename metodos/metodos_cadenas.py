@@ -34,6 +34,7 @@ es_alfanumerico = cadena5.isalpha()
 contar_coincidencias = cadena1.count("soy")
 
 #contamos cuantos caracteres tiene una cadena, OJO no es un metodo es una funcion
+#en caso de ponerle un Array este cuenta el numero de datos en el Array
 contar_caracteres = len(cadena1)
 
 # verificamos si una cadena empieza con otra cadena dada, si es as devuelve true
@@ -49,4 +50,4 @@ cadena_nueva = cadena1.replace("Hola","carambas")
 #separar cadenas con la cadena que la pasemos y los convierte en una lista
 cadena_separada = cadena6.split(",")
 
-print(cadena_separada[1])
+print(contar_caracteres)
