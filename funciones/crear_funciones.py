@@ -4,7 +4,7 @@ def saludar():
 
 saludar()
 
-#funcion con parametros, un parametro es un variable, tambien llamado argumento en otrso lenguajes
+#funcion con parametros, un parametro es un variable, tambien llamado argumento en otros lenguajes
 def saludar2(nombre,sexo):
     if(sexo=='mujer'):
         adjetivo = 'reyna'

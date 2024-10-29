@@ -1,4 +1,4 @@
-#utilizando el operador * como parametro (*args)
+#utilizando el operador * como parametro (*args),te da la opcion de meter varios argumentos
 def suma(nombre, *numeros):
     return f"{nombre} la suma de tus numeros es:{sum(numeros)}"
 resultado = suma('mirco',4,5,6,7)

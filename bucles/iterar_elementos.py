@@ -16,7 +16,7 @@ for numero,animal in zip(animales,numeros):
     print(f'recorriendo lista 1 {animal}')
     print(f'recorriendo lista 2 {numero}')
 
-#otra forma es utilizando range que itera solo hasta el rango  
+#otra forma es utilizando range que itera solo hasta el rango entre dos numeros cualquiera en este caso elejimos 5 y 10  
 for num in range(5,10):
     print(num)
     
