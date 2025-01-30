@@ -18,3 +18,7 @@ print(list(numeros_pares))
 
 numeros_pares = filter(lambda num:num%2 == 0,numeros)
 print(list(numeros_pares))
+
+
+
+
